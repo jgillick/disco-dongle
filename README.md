@@ -1,9 +1,11 @@
 # Disco Dongle
 
+[![Open Source Hardware](/images/oshw-badge.png)](http://www.oshwa.org/)
+
 A USB to RS485 dongle uniquely designed for [Disco Bus](https://github.com/jgillick/Disco-Bus-Protocol)
 networks, however, can be used for many other multidrop needs.
 
-![3D Rendering](/resources/3D_render.png)
+![3D Rendering](/images/3D_render.png)
 
 ## About
 
@@ -14,7 +16,7 @@ connected to RJ45 jack pin 4.
 If using this on a Disco Bus network, RTS/pin 3 would be to the first node's daisy chain line and
 DSR/ping 4 would be on the shared signal line.
 
-![Photo](/resources/photo.jpg)
+![Photo](/images/photo.jpg)
 
 ## Ethernet Pinout
 
