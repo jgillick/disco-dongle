@@ -59,13 +59,13 @@ using pins 5 and 6 for ground.
 | 2   | D3,D4       |          | 0805      | Daisy/Signal LEDs | [475-1410-1-ND](http://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598) |
 | 1   | U1          |          | SSOP-28   | FT232RL           | [768-1007-1-ND](http://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402) |
 | 1   | U2          |          | SOIC-8    | RS485 Transceiver | [ISL81487EIBZ-TCT-ND](http://www.digikey.com/product-detail/en/intersil/ISL81487EIBZ-T/ISL81487EIBZ-TCT-ND/1034270) |
-| 1   | J1          |          |           | USB - B           | [ED2983-ND](http://www.digikey.com/product-search/en?keywords=USB-B1HSB6) |
+| 1   | J1          |          |           | USB - B Micro     | [609-4618-1-ND](http://www.digikey.com/product-search/en?keywords=609-4618-1-ND) |
 | 1   | J2          |          |           | RJ45 Jack         | [609-1046-ND](http://www.digikey.com/product-search/en?keywords=54602-908LF) |
 
 
 ## Order One
 
-You can either build one yourself, of [MacroFab](http://macrofab.com) will assemble
+You can either build one yourself, or [MacroFab](http://macrofab.com) will assemble
 one for you for ~$30.
 
 To use MacroFab:
@@ -73,10 +73,10 @@ To use MacroFab:
  * [Create an account](http://macrofab.com)
  * Create a new PCB
  * Goto the "Design Files" tab.
-   * Upload `kicad/DiscoDongle.kicad_pcb`
    * Upload `BOM_MacroFab.xyrs`
- * Verify all parts are selected/populated on the "Bill of Materials" Tab.
- * Verify parts are arranged properly on "Placement" tab.
+   * Upload `Gerbers/*`
+ * Goto the "Bill of Materials" tab and Verify all parts are selected/populated (except OSHW-Logo).
+ * Goto the "Placement" tab and verify parts are arranged properly.
  * Click "Order Now"
 
 ## Credit
